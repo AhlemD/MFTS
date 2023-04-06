@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FMTS</title>
+    <link rel="stylesheet" href="../production/pro.css">
+</head>
+<body>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="pro.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <p></p>
+            </div>
+            <div class="container">
+                <table id="mm">
+                    <tr>
+                        <th>Palette</th>
+                        <th>matiére</th>
+                    </tr>
+                    <!-- Le contenu de la table est généré dynamiquement en PHP -->
+                </table>
+            </div>
+        </form>
+    </div>
+
+    <script src="pro.js"></script>
+</body>
+</html>
